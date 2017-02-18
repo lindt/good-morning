@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+docker pull think/affectiva &>/dev/null
+cat $1 | docker run -i think/affectiva

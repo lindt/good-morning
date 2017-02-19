@@ -1,0 +1,4 @@
+#!/bin/sh
+
+scp -q service4@192.168.199.66:workspace/good-morning/images/webcam.jpg images &&
+./analyze images/webcam.jpg |head -n -1 |cut -d ',' -f 5-8 | grep -v nan

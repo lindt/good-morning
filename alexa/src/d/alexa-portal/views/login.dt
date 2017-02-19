@@ -1,0 +1,42 @@
+doctype html
+html
+	head
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css")
+		script(src="https://code.jquery.com/jquery-1.11.1.min.js")
+		script(src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js")
+		title& openwebif.title
+	body(style='text-align: center')
+		#header
+			img(src='icon-108.png', alt='Openwebif')
+		#content
+			p& index.welcome-text
+			#amazon-root
+			script.
+				window.onAmazonLoginReady = function() {
+					amazon.Login.setClientId('amzn1.application-oa2-client.b67385a2f32440cba272eb0796bb3b34');
+				};
+				(function(d) {
+					var a = d.createElement('script'); a.type = 'text/javascript';
+					a.async = true; a.id = 'amazon-login-sdk';
+					a.src = 'https://api-cdn.amazon.com/sdk/login1.js';
+					d.getElementById('amazon-root').appendChild(a);
+				})(document);
+			#amazonpic
+				a(href="", id="LoginWithAmazon")
+					img(src="https://images-na.ssl-images-amazon.com/images/G/01/lwa/btnLWA_gold_156x32.png", width="156", height="32", border="0", alt="Login with amazon")
+			script.
+				document.getElementById('LoginWithAmazon').onclick = function() {
+				options = { scope : 'profile', popup : false, redirect_uri : "https://#{req.host}/login" };
+				amazon.Login.authorize(options,
+				'https://#{req.host}/login');
+				return false;
+				};
+			script.
+				if (window.location.hash)
+				{
+					var host = window.location.href
+					var host2 = host.replace("#","?") 
+					window.location.href = host2
+				};	
+		p& index.copyright

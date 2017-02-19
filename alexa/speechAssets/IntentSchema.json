@@ -1,0 +1,80 @@
+{
+  "intents": [
+    {
+      "intent": "IntentCurrent"
+    },
+    {
+      "intent": "IntentServices"
+    },
+    {
+      "intent": "IntentMovies"
+    },
+    {
+      "intent": "IntentToggleMute"
+    },
+    {
+      "intent": "IntentVolumeUp"
+    },
+    {
+      "intent": "IntentVolumeDown"
+    },
+    {
+      "intent": "IntentToggleStandby"
+    },
+    {
+      "intent": "IntentRecordNow"
+    },
+    {
+      "intent": "IntentAbout"
+    },
+    {
+      "intent": "IntentSetVolume",
+      "slots": [{
+        "name": "targetVolume",
+        "type": "AMAZON.NUMBER"
+      }]
+    },
+    {
+      "intent": "IntentSleepTimer",
+      "slots": [{
+        "name": "targetMinutes",
+        "type": "AMAZON.DURATION"
+      }]
+    },
+    {
+      "intent": "IntentZapTo",
+      "slots": [{
+        "name": "targetChannel",
+        "type": "CHANNEL"
+      }]
+    },
+    {
+      "intent": "IntentZapRandom"
+    },
+    {
+      "intent": "IntentZapUp"
+    },
+    {
+      "intent": "IntentZapDown"
+    },
+    {
+      "intent": "IntentZapToEvent",
+      "slots": [{
+        "name": "targetEvent",
+        "type": "EVENT"
+      }]     
+    },
+    {
+      "intent": "IntentRCPlayPause"
+    },
+    {
+      "intent": "IntentRCStop"
+    },
+    {
+      "intent": "IntentRCPrevious"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

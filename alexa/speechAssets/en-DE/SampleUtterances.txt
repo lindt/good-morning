@@ -1,0 +1,108 @@
+IntentCurrent was gerade läuft
+IntentCurrent was ich gerade gucke
+IntentCurrent was aktuell läuft
+IntentCurrent was ist das
+IntentCurrent aktuell
+IntentCurrent was läuft gerade
+IntentCurrent was gucke ich gerade
+
+IntentServices nach meinen kanälen
+IntentServices nach meinen sendern
+IntentServices nach meinen services
+IntentServices meine Kanäle
+IntentServices meine Sender
+IntentServices meine Services 
+
+IntentMovies nach meinen aufnahmen
+IntentMovies nach meinen filmen
+IntentMovies welche aufnahmen habe ich
+IntentMovies meine aufnahmen
+
+IntentToggleMute Ton ausschalten
+IntentToggleMute mute
+IntentToggleMute nach Ton ausschalten
+IntentToggleMute nach stumm schalten
+IntentToggleMute Stumm schalten
+IntentToggleMute Ton auszumachen
+IntentToggleMute Ton an
+IntentToggleMute Ton aus
+
+IntentZapTo und schalte auf {targetChannel}
+IntentZapTo auf {targetChannel} zu schalten
+IntentZapTo auf {targetChannel} zu wechseln
+IntentZapTo den Sender {targetChannel} einzuschalten
+IntentZapTo zu {targetChannel} zu schalten
+IntentZapTo zu {targetChannel} zu wechseln
+IntentZapTo wechsel zu {targetChannel}
+IntentZapTo zap zu {targetChannel}
+IntentZapTo schalte auf {targetChannel}
+IntentZapTo schalte {targetChannel}
+IntentZapTo wechsel {targetChannel}
+
+IntentZapToEvent ob die Sendung {targetEvent} läuft
+IntentZapToEvent ob Sendung {targetEvent} läuft
+IntentZapToEvent ob {targetEvent} läuft
+IntentZapToEvent nach der Sendung {targetEvent}
+IntentZapToEvent nach Sendung {targetEvent} 
+IntentZapToEvent such nach Sendung {targetEvent} 
+IntentZapToEvent Sendung {targetEvent} 
+
+IntentVolumeUp erhöhe die Lautstärke
+IntentVolumeUp Lautstärke hoch
+IntentVolumeUp lauter
+
+IntentVolumeDown verringer die Lautstärke
+IntentVolumeDown Lautstärke runter
+IntentVolumeDown leiser
+
+IntentToggleStandby Standby umschalten
+IntentToggleStandby Standby einschalten
+IntentToggleStandby Standby ausschalten
+IntentToggleStandby ausschalten
+IntentToggleStandby einschalten
+IntentToggleStandby anschalten
+
+IntentRecordNow aufnehmen
+IntentRecordNow Aufnahme starten
+IntentRecordNow jetzt aufnehmen
+
+IntentSetVolume die Lautstärke auf {targetVolume} setzen
+IntentSetVolume die Lautstärke auf {targetVolume} zu setzen
+IntentSetVolume Lautstärke auf {targetVolume}
+IntentSetVolume Lautstärke auf {targetVolume} erhöhen
+IntentSetVolume Lautstärke auf {targetVolume} verringern
+
+IntentSleepTimer nach sleep timer in {targetMinutes}
+IntentSleepTimer nach sleep timer {targetMinutes}
+IntentSleepTimer nach einschlafen in {targetMinutes}
+IntentSleepTimer nach ausschalten in {targetMinutes}
+IntentSleepTimer sleep timer in {targetMinutes}
+IntentSleepTimer sleep timer {targetMinutes}
+
+IntentAbout worin es geschrieben wurde
+IntentAbout wo es her kommt
+IntentAbout wer es gechrieben hat
+IntentAbout wer ist dein vater
+
+IntentZapRandom schalte zufällig um 
+IntentZapRandom zufällig umschalten
+
+IntentZapDown schalte runter
+IntentZapDown runter schalten
+
+IntentZapUp schalte hoch
+IntentZapUp hoch schalten
+
+IntentRCPlayPause pausieren
+IntentRCPlayPause pause
+IntentRCPlayPause fortsetzen
+
+IntentRCStop stop
+
+IntentRCPrevious vorheriger Kanal
+IntentRCPrevious vorheriger Sender
+IntentRCPrevious letzter Kanal
+IntentRCPrevious letzter Sender
+IntentRCPrevious zurückschalten
+IntentRCPrevious zurück schalten
+IntentRCPrevious zurück

@@ -1,0 +1,57 @@
+PleaseLogin,            Bitte log dich ein
+PleaseLoginSSML,        <speak>Bitte log dich in deiner Alexa App ein</speak>
+DefaultCardTitle,       Enigma Control
+HelloCardContent,       Enigma Control sagt hallo zu %s
+HelloSSML,              <speak>Hallo %s, danke fürs einloggen. Was kann ich für dich tun?</speak>
+ChannelsCardTitle,      Kanäle
+ChannelsSSML,           <speak>Du hast die folgenden Kanäle %s</speak>
+AboutCardTitle,         Enigma Control Info
+AboutCardContent,       Ich bin Enigma Control, ein Alexa Skill geschrieben in D. Stephan aka extrawurst und Fabian aka fabsi88 sind meine Autoren. Finde mehr über mich heraus bei github.
+AboutSSML,              <speak>Ich bin Enigma Control, ein Alexa Skill geschrieben in D. Stephan aka extrawurst und Fabian aka fabsi88 sind meine Autoren. Finde mehr über mich heraus bei github.</speak>
+MoviesCardTitle,        Filmliste
+MoviesSSML,             <speak>Du hast die folgenden Filme %s</speak>
+MuteCardTitle,          Stummschalten
+MutedSSML,              <speak>Stumm geschaltet</speak>
+MuteFailedSSML,         <speak>Stummschalten fehlgeschlagen</speak>
+UnMutedSSML,            <speak>Stummschalten abgeschaltet</speak>
+StandbyCardTitle,       Standby
+StandbyFailedSSML,      <speak>In Standby wechseln ist fehlgeschlagen</speak>
+StandbySSML,            <speak>Box in Standby geschaltet</speak>
+BoxStartedSSML,         <speak>Box gestartet</speak>
+SetVolumeCardTitle,     Lautstärke anpassen
+SetVolumeFailedSSML,    <speak>Lautstärke anpassen fehlgeschlagen</speak>
+SetVolumeSSML,          <speak>Lautstärke auf %s gesetzt</speak>
+RecordNowCardTitle,     Aufnahme starten
+RecordNowFailedSSML,    <speak>Aufnahme starten fehlgeschlagen</speak>
+RecordNowSSML,          <speak>Aufnahme gestartet</speak>
+ZapToCardTitle,         Umschalten
+ZapUpCardTitle,         Hoch schalten
+ZapDownCardTitle,       Runter schalten
+ZapRandomCardTitle,     Zufälliges umschalten
+ZapToEventCardTitle,    Umschalten zu Sendung
+ZapToEventFailedSSML,   <speak>Die Sendung läuft zur Zeit leider nicht. Die nächste Sendung <p>%s</p> läuft um <p>%s Uhr</p> auf <p>%s</p></speak>
+ZapToEventNotFoundSSML, <speak>Die Sendung konnte in deinem e p g nicht gefunden werden</speak>
+ZapFailedSSML,          nichts
+ZapSSML,                <speak>Ich habe umgeschaltet zu: <p>%s</p></speak>
+ZapUp,                  hoch
+ZapDown,                runter
+ZapToRandom,            zufall
+SleepTimerCardTitle,    Sleep Timer
+SleepTimerOffSSML,      <speak>Sleep Timer wurde deaktiviert</speak>
+SleepTimerResetSSML,    <speak>Es existiert bereits ein Sleep Timer mit <p>%s verbleibenden Minuten. Timer wurde auf %s Minuten zurückgesetzt.</p></speak>
+SleepTimerSetSSML,      <speak>Ich habe den Sleep Timer auf <p>%s Minuten eingestellt</p></speak>
+SleepTimerFailedSSML,   <speak>Der Timer konnte nicht gesetzt werden. Es werden keine Werte über 24 Stunden akzeptiert.</speak>
+SleepTimerNoTimerSSML,  <speak>Es gibt keinen Timer der deaktiviert werden könnte</speak>
+CurrentCardTitle,       Es läuft
+CurrentSSML,            <speak>Du guckst gerade: <p>%s</p> Aktuell läuft: %s</speak>
+CurrentNextSSML,        <speak>Du guckst gerade: <p>%s</p> Aktuell läuft: %s anschliessend läuft: %s</speak>
+RCPlayPauseCardTitle,   Program pausieren/abspielen
+RCOKSSML,               <speak>OK</speak>
+RCFailedSSML,  <speak>Fehlgeschlagen</speak>
+RCStopCardTitle,        Program pausieren abbrechen
+NotSupportedSSML,       <speak>Diese Funktion ist für deine Box noch nicht verfügbar. Bitte besuche uns auf github und eröffne ein Ticket</speak>
+RCPreviousCardTitle,    Vorheriger Kanal
+ErrorCardTitle,         Es ist ein Fehler aufgetreten
+ErrorCardContent,       Bitte prüfe auf https://funok.de:8080/ ob deine Openwebif Daten richtig eingetragen sind. Solltest du weiterhin Probleme haben kannst du gerne ein Ticket mit der Referenz: %s auf https://github.com/alexa-d/alexa-openwebif/issues eröffnen.
+ErrorSSML,              <speak>Es ist ein Fehler aufgetreten. Genauere Informationen findest du in deiner Alexa App.</speak>
+SetVolumeRangeErrorSSML,<speak>Der Wert %s ist als Lautstärke nicht möglich. 0-100 möglich.</speak>

@@ -1,0 +1,42 @@
+doctype 5
+html
+    head
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css")
+        script(src="https://code.jquery.com/jquery-1.11.1.min.js")
+        script(src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js")
+        script.
+            function logout() { 
+                amazon.Login.logout();
+                window.location.href = "/logout";
+            }; 
+        title& openwebif.title
+    body(style='text-align: center')
+        #amazon-root
+        script.
+            window.onAmazonLoginReady = function() {
+                amazon.Login.setClientId('amzn1.application-oa2-client.b67385a2f32440cba272eb0796bb3b34');
+            };
+            (function(d) {
+                var a = d.createElement('script'); a.type = 'text/javascript';
+                a.async = true; a.id = 'amazon-login-sdk';
+                a.src = 'https://api-cdn.amazon.com/sdk/login1.js';
+                d.getElementById('amazon-root').appendChild(a);
+            })(document);
+        img(src='icon-108.png', alt='Openwebif')
+        p& updateform.text
+        form(action="settings", method="POST", data-ajax="false")
+            div(class="ui-field-contain")
+                input(type="text", name="owifurl", id="owifurl", placeholder="External URL to openwebif", value="#{settings.owifSettings.url}", size="40", required)
+                input(type="text", name="owifusername", id="owifusername", placeholder="Openwebif User", value="#{settings.owifSettings.username}")
+                input(type="password", name="owifpassword", id="owifpassword", placeholder="Openwebif password", value="")
+                button(type="submit", class="ui-btn ui-icon-check ui-btn-icon-left")& updateform.update
+        - if (error.length && error != "Success")
+            p.error = error
+        - else if (error == "Success")
+            p& index.updated
+        p& updateform.hint
+        a(href='https://github.com/Extrawurst/alexa-openwebif/issues', target='_blank') Github Ticket 
+        button(class="ui-btn ui-icon-user ui-btn-icon-left") #{settings.profile.name} (#{settings.profile.email}) 
+        button(id="Logout", class="ui-btn ui-icon-power ui-btn-icon-left", onClick="logout();")& updateform.logout
+        p& index.copyright

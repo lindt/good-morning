@@ -1,0 +1,66 @@
+IntentCurrent whats is currently running
+IntentCurrent what's running
+IntentCurrent what is showing
+IntentCurrent what is shown
+
+IntentServices for my channels
+
+IntentMovies for my recordings
+IntentMovies to list my recordings
+
+IntentToggleMute to mute
+IntentToggleMute to unmute
+IntentToggleMute mute
+IntentToggleMute unmute
+
+IntentZapTo to switch to {targetChannel}
+IntentZapTo switch to {targetChannel}
+IntentZapTo change to {targetChannel}
+IntentZapTo to change to {targetChannel}
+IntentZapTo to zap to {targetChannel}
+IntentZapTo zap to {targetChannel}
+
+IntentZapToEvent for program {targetEvent}
+IntentZapToEvent if {targetEvent} is on
+
+IntentVolumeUp to turn louder
+IntentVolumeUp volume up
+
+IntentVolumeDown to turn less loud
+IntentVolumeDown volume down
+
+IntentToggleStandby to toggle standby
+IntentToggleStandby to turn on
+IntentToggleStandby to turn off
+
+IntentRecordNow record
+IntentRecordNow start recording
+IntentRecordNow record now
+
+IntentSetVolume to set volume {targetVolume}
+IntentSetVolume turn volume to {targetVolume} 
+
+IntentSleepTimer to sleep in {targetMinutes}
+IntentSleepTimer sleep in {targetMinutes}
+
+IntentAbout what it is written in
+IntentAbout where it is coming from
+IntentAbout who created it
+IntentAbout who is your father
+
+IntentZapRandom zap randomly 
+IntentZapRandom switch randomly
+
+IntentZapUp zap up
+IntentZapUp switch up
+
+IntentZapDown zap down
+IntentZapDown switch down
+
+IntentRCPlayPause to pause
+IntentRCPlayPause to resume
+
+IntentRCStop to stop pause mode
+
+IntentRCPrevious previous channel
+IntentRCPrevious last channel

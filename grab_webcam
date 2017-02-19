@@ -1,2 +1,2 @@
 #!/bin/sh
-fswebcam -r 640x480 --jpeg 85 -D 1 images/webcam.jpg
+fswebcam -r 1024x768 --flip v --jpeg 95 --loop 1 images/webcam.jpg
